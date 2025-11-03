@@ -1,0 +1,13 @@
+body {
+	background-image: url("/background.png");
+	background-size: auto;
+}
+
+.content {
+	background: #0a0a0a;
+	border-radius: 20px;
+	padding: 10px;
+	border-color: #303030;
+	border-width: 5px;
+	border-style: solid;
+}
