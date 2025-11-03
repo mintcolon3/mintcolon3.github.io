@@ -13,7 +13,7 @@ export default function DashboardLayout({ children }) {
     <html lang="en" className={zzzfont.className}>
       <head>
         <title>MintColon3</title>
-        <link rel="icon" type="image/x-icon" href="./favicon.ico"></link>
+        <link rel="icon" type="image/x-icon" href="./favicon.png"></link>
       </head>
       <body>
         <div style={{ display: "flex", flexDirection: 'column', maxHeight: '98vh' }}>
