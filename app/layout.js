@@ -13,6 +13,11 @@ export default function DashboardLayout({ children }) {
     <html lang="en" className={zzzfont.className}>
       <head>
         <title>MintColon3</title>
+        <meta content="MintColon3" property="og:title" />
+        <meta content="Mint • She/Her • 🏳️‍⚧️🇬🇧" property="og:description" />
+        <meta content="/" property="og:url" />
+        <meta content="./favicon.png" property="og:image" />
+        <meta content="#e4a0ff" data-react-helmet="true" name="theme-color" />
         <link rel="icon" type="image/x-icon" href="./favicon.png"></link>
       </head>
       <body>
