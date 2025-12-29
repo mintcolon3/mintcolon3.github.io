@@ -58,7 +58,14 @@ export default function Page() {
             </ul>
           </li>
         </ul>
+        <hr />
+        <ul className="f_links">
+          <li><a href="/#"><img src="./88x31.gif" /></a></li>
+          <li><a href="https://aliceweidel.gay" target="_blank"><img src="https://aliceweidel.gay/mybadge.gif" /></a></li>
+        </ul>
       </main>
+
+
     </div>
   );
 }
