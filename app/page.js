@@ -62,6 +62,7 @@ export default function Page() {
         <ul className="f_links">
           <li><a href="/#"><img src="./88x31.gif" /></a></li>
           <li><a href="https://aliceweidel.gay" target="_blank"><img src="https://aliceweidel.gay/mybadge.gif" /></a></li>
+          <li><a href="https://osagearchive.com/" target="_blank"><img src="./88x31/OsageArchive.gif" /></a></li>
         </ul>
       </main>
 
