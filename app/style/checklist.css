@@ -67,6 +67,49 @@
 
 
 
+.mobile-quick-icon ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+}
+
+.mobile-quick-icon li {
+    background-color: #565656;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    height: 56px;
+}
+
+.mobile-quick-icon img {
+    height: 48px;
+    width: 48px;
+    border-radius: 48px;
+    padding: 4px;
+    background-color: #212121;
+}
+
+.mobile-quick-icon p {
+    color: white;
+    font-size: 25px;
+}
+
+.mobile-quick-icon .link {
+    cursor: pointer;
+}
+
+
+
 .item-list {
     margin: 10px;
 }
