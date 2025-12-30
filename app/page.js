@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 
 function DesktopSocials() {
   return (
@@ -91,11 +92,20 @@ function MobileSocials() {
 }
 
 function GetSocials() {
-  if (window.innerWidth > 1000) {
-    return <DesktopSocials />;
-  } else {
-    return <MobileSocials />
-  }
+  const [isDesktop, setIsDesktop] = useState(false);
+
+  useEffect(() => {
+    function update() {
+      if (typeof window !== "undefined") {
+        setIsDesktop(window.innerWidth > 1000);
+      }
+    }
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, []);
+
+  return isDesktop ? <DesktopSocials /> : <MobileSocials />;
 }
 
 export default function Page() {
