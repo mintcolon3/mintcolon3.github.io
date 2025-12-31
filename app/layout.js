@@ -17,8 +17,9 @@ export default function DashboardLayout({ children }) {
         <meta content="Mint • She/Her • 🏳️‍⚧️🇬🇧" property="og:description" />
         <meta content="https://mintcolon3.github.io/favicon.png" property="og:image" />
         <meta content="#e4a0ff" data-react-helmet="true" name="theme-color" />
-        <link rel="icon" type="image/x-icon" href="./favicon.png"></link>
+        <link rel="icon" type="image/x-icon" href="./favicon2.png"></link>
       </head>
+      
       <body>
         <div style={{ display: "flex", flexDirection: 'column', maxHeight: '98vh' }}>
           <nav className="pagebar">
