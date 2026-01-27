@@ -15,9 +15,9 @@ export default function DashboardLayout({ children }) {
         <title>MintColon3</title>
         <meta content="MintColon3" property="og:title" />
         <meta content="Mint • She/Her • 🏳️‍⚧️🇬🇧" property="og:description" />
-        <meta content="https://mintcolon3.github.io/favicon.png" property="og:image" />
+        <meta content="https://mintcolon3.github.io/minty4.png" property="og:image" />
         <meta content="#e4a0ff" data-react-helmet="true" name="theme-color" />
-        <link rel="icon" type="image/x-icon" href="./favicon2.png"></link>
+        <link rel="icon" type="image/x-icon" href="./favicon3.png"></link>
       </head>
       
       <body>

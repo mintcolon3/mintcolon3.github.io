@@ -116,7 +116,7 @@ export default function Page() {
 
       <main className="content" style={{ flex: 1, marginTop: "10px"}}>
         <ul className="profile">
-          <li><img src="./minty3.png" /></li>
+          <li><img src="./minty4.png" /></li>
           <li>
             <p className="username">MintColon3</p>
             <p>Mint • She/Her • 🏳️‍⚧️🇬🇧</p>
