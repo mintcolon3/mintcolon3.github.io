@@ -108,6 +108,34 @@ function GetSocials() {
   return isDesktop ? <DesktopSocials /> : <MobileSocials />;
 }
 
+function Profile() {
+  return (
+    <ul className="profile">
+      <li><img src="./minty4.png" /></li>
+      <li>
+        <p className="username">MintColon3</p>
+        <p>Mint • She/Her • 🏳️‍⚧️🇬🇧</p>
+        <ul>
+          <li>silly lesiab catgirl</li>
+          <li>always eepy :3</li>
+          <li>queen of bwaa</li>
+        </ul>
+      </li>
+    </ul>
+  )
+}
+
+function FriendLinks() {
+  return (
+    <ul className="f_links">
+      <li><a href="/#"><img src="./88x31.gif" /></a></li>
+      <li><a href="https://aliceweidel.gay" target="_blank"><img src="./88x31/loudy.gif" /></a></li>
+      <li><a href="https://lina.sh/" target="_blank"><img src="./88x31/lina.gif" /></a></li>
+      <li><a href="https://osagearchive.com/" target="_blank"><img src="./88x31/OsageArchive.gif" /></a></li>
+    </ul>
+  )
+}
+
 export default function Page() {
 
   return (
@@ -115,28 +143,10 @@ export default function Page() {
       <GetSocials />
 
       <main className="content" style={{ flex: 1, marginTop: "10px"}}>
-        <ul className="profile">
-          <li><img src="./minty4.png" /></li>
-          <li>
-            <p className="username">MintColon3</p>
-            <p>Mint • She/Her • 🏳️‍⚧️🇬🇧</p>
-            <ul>
-              <li>silly lesiab catgirl</li>
-              <li>always eepy :3</li>
-              <li>queen of bwaa</li>
-            </ul>
-          </li>
-        </ul>
+        <Profile />
         <hr />
-        <ul className="f_links">
-          <li><a href="/#"><img src="./88x31.gif" /></a></li>
-          <li><a href="https://aliceweidel.gay" target="_blank"><img src="./88x31/loudy.gif" /></a></li>
-          <li><a href="https://lina.sh/" target="_blank"><img src="./88x31/lina.gif" /></a></li>
-          <li><a href="https://osagearchive.com/" target="_blank"><img src="./88x31/OsageArchive.gif" /></a></li>
-        </ul>
+        <FriendLinks />
       </main>
-
-
     </div>
   );
 }
