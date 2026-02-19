@@ -8,7 +8,7 @@ function DesktopSocials() {
         <ul>
           <li className="link" onClick={() => open("https://discord.com/users/1170381506460536905")}>
             <div className="tag"><p>Discord</p></div>
-            <div className="icon"><img src="https://cdn.discordapp.com/avatars/1170381506460536905/578c83073187fb36c51ea112d25f6395.png?size=96" /></div>
+            <div className="icon"><img src="https://cdn.discordapp.com/avatars/1170381506460536905/8c6ab5d27d03ddc39512a475cd65a201.png" /></div>
           </li>
 
           <li className="link" onClick={() => open("https://github.com/mintcolon3")}>
@@ -52,7 +52,7 @@ function MobileSocials() {
       <div className="mobile-quick-icon">
         <ul>
           <li className="link" onClick={() => open("https://discord.com/users/1170381506460536905")}>
-            <img src="https://cdn.discordapp.com/avatars/1170381506460536905/578c83073187fb36c51ea112d25f6395.png?size=96" />
+            <img src="https://cdn.discordapp.com/avatars/1170381506460536905/8c6ab5d27d03ddc39512a475cd65a201.png" />
             <p>Discord</p>
           </li>
 

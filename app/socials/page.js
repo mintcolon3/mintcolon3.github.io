@@ -22,7 +22,7 @@ export default function Page() {
     <ul className="socials-page">
         <SocialsElement 
             name="Discord"
-            image="https://cdn.discordapp.com/avatars/1170381506460536905/578c83073187fb36c51ea112d25f6395.png"
+            image="https://cdn.discordapp.com/avatars/1170381506460536905/8c6ab5d27d03ddc39512a475cd65a201.png"
             link="https://discord.com/users/1170381506460536905"
         />
         <SocialsElement
