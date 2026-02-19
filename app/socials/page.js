@@ -1,18 +1,44 @@
 "use client";
+import { useEffect, useState } from "react";
 
 function SocialsElement({ name, image, link }) {
+    const [isDesktop, setIsDesktop] = useState(false);
+    
+    useEffect(() => {
+        function update() {
+            if (typeof window !== "undefined") {
+            setIsDesktop(window.innerWidth > 650);
+            }
+        }
+        update();
+        window.addEventListener("resize", update);
+        return () => window.removeEventListener("resize", update);
+    }, []);
+
     const openLink = () => {
-        window.open(link, '_blank'); // Opens the link in a new tab
+        window.open(link, '_blank'); 
     };
 
     return (
-        <li className="socials-element">
-            <img src={image} alt={name} />
-            <p>{name}</p>
-            <div className="socials-pane">
-                <div className="socials-link" onClick={openLink}>Go</div>
-            </div>
-        </li>
+        <>
+            {isDesktop ? (
+                <li className="socials-element">
+                    <img src={image} />
+                    <p>{name}</p>
+                    <div className="socials-pane">
+                        <div className="socials-link" onClick={openLink}>Go</div>
+                    </div>
+                </li>
+            ) : (
+                <li className="m-socials-element">
+                    <img src={image} />
+                    <p>{name}</p>
+                    <div className="m-socials-pane">
+                        <div className="socials-link" onClick={openLink}>Go</div>
+                    </div>
+                </li>
+            )}
+        </>
     );
 }
 
