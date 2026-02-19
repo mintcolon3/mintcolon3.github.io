@@ -12,7 +12,7 @@ export default function DashboardLayout({ children }) {
   return (
     <html lang="en" className={zzzfont.className}>
       <head>
-        <title>MintColon3</title>
+        <title>Mint :3</title>
         <meta content="MintColon3" property="og:title" />
         <meta content="Mint • She/Her • 🏳️‍⚧️🇬🇧" property="og:description" />
         <meta content="https://mintcolon3.github.io/minty4.png" property="og:image" />
