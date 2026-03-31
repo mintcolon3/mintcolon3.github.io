@@ -8,7 +8,7 @@ function DesktopSocials() {
         <ul>
           <li className="link" onClick={() => open("https://discord.com/users/1170381506460536905")}>
             <div className="tag"><p>Discord</p></div>
-            <div className="icon"><img src="https://cdn.discordapp.com/avatars/1170381506460536905/8c6ab5d27d03ddc39512a475cd65a201.png" /></div>
+            <div className="icon"><img src="https://cdn.discordapp.com/avatars/1170381506460536905/b55cd8442ca410ef02fa3329e8867599.png" /></div>
           </li>
 
           <li className="link" onClick={() => open("https://github.com/mintcolon3")}>
@@ -23,7 +23,7 @@ function DesktopSocials() {
 
           <li className="link" onClick={() => open("https://matrix.to/#/@mintcolon3:matrix.org")}>
             <div className="tag"><p>Matrix</p></div>
-            <div className="icon"><img src="./minty2.png" /></div>
+            <div className="icon"><img src="./matrix-pfp.jpg" /></div>
           </li>
 
           <li className="link" onClick={() => open("https://steamcommunity.com/id/mintc3")}>
@@ -52,7 +52,7 @@ function MobileSocials() {
       <div className="mobile-quick-icon">
         <ul>
           <li className="link" onClick={() => open("https://discord.com/users/1170381506460536905")}>
-            <img src="https://cdn.discordapp.com/avatars/1170381506460536905/8c6ab5d27d03ddc39512a475cd65a201.png" />
+            <img src="https://cdn.discordapp.com/avatars/1170381506460536905/b55cd8442ca410ef02fa3329e8867599.png" />
             <p>Discord</p>
           </li>
 
@@ -67,7 +67,7 @@ function MobileSocials() {
           </li>
 
           <li className="link" onClick={() => open("https://matrix.to/#/@mintcolon3:matrix.org")}>
-            <img src="./minty2.png" />
+            <img src="./matrix-pfp.jpg" />
             <p>Matrix</p>
           </li>
 

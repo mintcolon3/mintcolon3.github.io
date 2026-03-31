@@ -48,7 +48,7 @@ export default function Page() {
     <ul className="socials-page">
         <SocialsElement 
             name="Discord"
-            image="https://cdn.discordapp.com/avatars/1170381506460536905/8c6ab5d27d03ddc39512a475cd65a201.png"
+            image="https://cdn.discordapp.com/avatars/1170381506460536905/b55cd8442ca410ef02fa3329e8867599.png"
             link="https://discord.com/users/1170381506460536905"
         />
         <SocialsElement
@@ -63,7 +63,7 @@ export default function Page() {
         />
         <SocialsElement
             name="Matrix"
-            image="./minty2.png"
+            image="./matrix-pfp.jpg"
             link="https://matrix.to/#/@mintcolon3:matrix.org"
         />
         <SocialsElement
