@@ -57,6 +57,11 @@ export default function Page() {
             link="https://github.com/mintcolon3"
         />
         <SocialsElement
+            name="Codeberg"
+            image="https://codeberg.org/avatars/517fb261f78f164fbc66d6348631645369a1e14aa63a647f8cce293fbebf3efc"
+            link="https://codeberg.org/mintcolon3"
+        />
+        <SocialsElement
             name="Bluesky"
             image="https://cdn.bsky.app/img/avatar/plain/did:plc:teohkpsz2qwzk2dpvmnl5tyw/bafkreigkt5eenhnck2so2rq3lqlf6ls62esgdsgw2oxoy7luybwhlralq4"
             link="https://mintcolon3.bsky.social"
