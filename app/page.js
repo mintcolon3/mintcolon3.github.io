@@ -131,7 +131,7 @@ function FriendLinks() {
       <li><a href="/#"><img src="./88x31.gif" /></a></li>
       <li><a href="https://aliceweidel.gay" target="_blank"><img src="./88x31/loudy.gif" /></a></li>
       <li><a href="https://lina.sh/" target="_blank"><img src="./88x31/lina.gif" /></a></li>
-      <li><a href="https://guhw.dev/" target="_blank"><img src="./88x31/windy.gif" /></a></li>
+      <li><a href="https://guhw.dev/" target="_blank"><img src="./88x31/windynew.png" /></a></li>
       <li><a href="https://osagearchive.com/" target="_blank"><img src="./88x31/OsageArchive.gif" /></a></li>
       <li><a href="https://koweret.github.io/" target="_blank"><img src="./88x31/azure.gif" /></a></li>
     </ul>
